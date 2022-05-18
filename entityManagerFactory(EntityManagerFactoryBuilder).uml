@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Persistence</ID>
+  <OriginalElement>JavaeeElement:/c16c3078/entityManagerFactory/DemoSchool/jpa/JPA/PersistenceModel</OriginalElement>
+  <nodes>
+    <node x="620.9782608695651" y="7.898550724637715">Teacher#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Teacher.java</node>
+    <node x="600.7608695652174" y="441.3768115942029">Subject#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Subject.java</node>
+    <node x="-86.5" y="-43.5">ClassStreams#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/ClassStreams.java</node>
+    <node x="6.0" y="551.0">AbstractAuditable#jar:///home/crypto/.m2/repository/org/springframework/data/spring-data-jpa/2.5.5/spring-data-jpa-2.5.5.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class</node>
+    <node x="253.75000000000003" y="413.8659420289855">Student#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Student.java</node>
+    <node x="-86.5" y="284.30797101449275">Claxs#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Claxs.java</node>
+    <node x="0.0" y="439.0">AbstractPersistable#jar:///home/crypto/.m2/repository/org/springframework/data/spring-data-jpa/2.5.5/spring-data-jpa-2.5.5.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Subject#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Subject.java" target="Subject#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Subject.java" relationship="RELATION">
+      <point x="57.02173913043475" y="52.264492753623244" />
+      <point x="745.2826086956521" y="561.4891304347826" />
+      <point x="820.3586956521739" y="561.4891304347826" />
+      <point x="820.3586956521739" y="484.8768115942029" />
+      <point x="-87.5" y="-0.0" />
+    </edge>
+    <edge source="Teacher#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Teacher.java" target="Subject#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Subject.java" relationship="RELATION">
+      <point x="0.0" y="-118.5" />
+      <point x="706.9782608695651" y="122.0" />
+      <point x="732.0108695652174" y="122.0" />
+      <point x="43.75" y="43.5" />
+    </edge>
+    <edge source="AbstractAuditable#jar:///home/crypto/.m2/repository/org/springframework/data/spring-data-jpa/2.5.5/spring-data-jpa-2.5.5.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="AbstractPersistable#jar:///home/crypto/.m2/repository/org/springframework/data/spring-data-jpa/2.5.5/spring-data-jpa-2.5.5.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class" relationship="INHERITANCE">
+      <point x="0.0" y="-43.5" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="Teacher#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Teacher.java" target="ClassStreams#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/ClassStreams.java" relationship="RELATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Student#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Student.java" target="Subject#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Subject.java" relationship="RELATION">
+      <point x="0.0" y="-106.0" />
+      <point x="349.75" y="494.6086956521739" />
+      <point x="732.0108695652174" y="494.6086956521739" />
+      <point x="43.75" y="43.5" />
+    </edge>
+    <edge source="Claxs#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Claxs.java" target="ClassStreams#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/ClassStreams.java" relationship="RELATION">
+      <point x="0.0" y="0.0" />
+      <point x="-7.5" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Student#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Student.java" target="ClassStreams#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/ClassStreams.java" relationship="RELATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8389057750759878" showDependencies="false" x="771.5072463768116" y="486.2409420289855" />
+  <SelectedNodes>
+    <node>Claxs#file:///media/crypto/DAMAGED/projects/SpringProjects/DemoSchool/src/main/java/com/example/demoschool/model/Claxs.java</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Embeddables</Category>
+    <Category>Properties</Category>
+    <Category>Superclasses</Category>
+  </Categories>
+</Diagram>
+
